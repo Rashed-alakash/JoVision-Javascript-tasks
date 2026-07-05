@@ -9,7 +9,7 @@ function makearray() {
 
 function sumarray(array) {
     let sum = 0;
-    for (i = 0; i <= 100; i++) {
+    for (let i = 0; i < array.length; i++) {
         sum += array[i];
     }
     return sum;
